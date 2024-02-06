@@ -18,14 +18,14 @@ async def on_ready():
         embed_painel = discord.Embed(
             color=0x2f3136,
             title='Sistema de AutoConnect',
-            description='**STATUS:**\n🟢Online\n**IP GOLD CITY:**\n**FECHE O FIVEM ANTES DE CLICAR NO BOTÃO**'
+            description='**STATUS:**\n🟢Online\n**IP :**\n**FECHE O FIVEM ANTES DE CLICAR NO BOTÃO**'
         )
         embed_painel.set_thumbnail(url=bot.user.display_avatar.url)
 
         iniciar = discord.ui.Button(
             style=discord.ButtonStyle.link,
             label='🔌 Conectar-se',
-            url='https://goldcityrp.github.io/GOLDCITYoficia/'
+            url=''
         )
 
         view = discord.ui.View()
