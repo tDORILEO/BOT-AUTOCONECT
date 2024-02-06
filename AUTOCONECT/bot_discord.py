@@ -36,4 +36,4 @@ async def on_ready():
         print("Canal desejado não encontrado.")
 
 # Adicione o seu token do bot aqui
-bot.run('MTE4NzQyOTMzMTg5OTc3NzE4NA.GpIOVv.6IyQuu_sGLyW4kxbtdwfCiKRMB1EhIgtGi4vLs')
+bot.run('')
