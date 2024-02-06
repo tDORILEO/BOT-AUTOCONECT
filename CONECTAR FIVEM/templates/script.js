@@ -1,7 +1,7 @@
           window.onload = function() {
             setTimeout(function() {
                 
-                var ip = "104.234.65.36";
+                var ip = "";
                 var porta = "30120";
 
                
