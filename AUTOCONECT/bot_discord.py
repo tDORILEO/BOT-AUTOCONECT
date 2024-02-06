@@ -11,8 +11,7 @@ async def on_ready():
     print(f'Conectado como {bot.user.name}')
 
     # Substitua 'ID_DO_SEU_CANAL' pelo ID do canal "ip-servidor"
-    canal_desejado_id = 1175100841091399870
-
+    canal_desejado_id = 
     canal_desejado = bot.get_channel(canal_desejado_id)
     if canal_desejado:
         embed_painel = discord.Embed(
